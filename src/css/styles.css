@@ -61,7 +61,7 @@ a { color:#f3546c; text-decoration:underline;}
 /* footer style */
 
 .fbg_img {
-    background: url(/src/images/footer.jpg);
+    background: url(../images/footer.jpg);
     background-size: contain;
 }
 
@@ -71,5 +71,4 @@ a { color:#f3546c; text-decoration:underline;}
 
 .fbg_resize {
     color: #fff;
-
 }
