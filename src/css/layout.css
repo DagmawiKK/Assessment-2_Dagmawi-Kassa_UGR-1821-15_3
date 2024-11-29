@@ -32,7 +32,9 @@ main.home .cards{
 
 
 aside {
-    margin:50px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin:50px 0px;
+    padding: 0px 20px;
 }
 
 .sb_menu li a[href$=".html"] {
