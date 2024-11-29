@@ -1,0 +1,169 @@
+/* Header layout */
+
+header {
+    background:url(/src/images/cat.webp) repeat top;
+    height:700px;
+}
+.header_resize {
+    margin:0 auto;
+    padding:150px 0 0 40px;
+    width:930px;
+}
+.header .logo {
+    width:auto;
+    float:left;
+}
+
+/* Main Home layout*/
+
+.container {
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 30px;
+}
+
+main.home .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    gap: 50px; 
+    padding: 50px;
+}
+
+
+aside {
+    margin:50px;
+}
+
+.sb_menu li a[href$=".html"] {
+    background: transparent;
+    color: #f3546c;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.sb_menu li a[href$=".html"]:hover {
+    all: unset;
+    cursor: pointer;
+    color: #e91d3c;
+}
+
+ul[class="sb_menu"] li, ul[class="ex_menu"] li, li a[href="#"] {
+    margin: 10px 0;
+}
+
+/* footer style */
+
+.fbg {
+    margin: 10px 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.fbg_resize {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.imgs {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imgs a img {
+    max-width: 100px;
+} 
+
+img[src="./src/images/logo.svg"] {
+    float: left;
+    padding-right: 10px;
+}
+
+img[src="./src/images/logo.svg"] + p {
+    display: inline;
+}
+
+.footer_resize {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:0 auto ;
+}
+
+.footer_resize ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer_nav li a[href$=".html"] {
+    background: transparent;
+    color: #f3546c;
+    text-decoration: underline;
+    padding: 0;
+}
+.footer_nav li a[href$=".html"]:hover {
+    all: unset;
+    cursor: pointer;
+    color: #e91d3c;
+}
+
+
+/* About main style */
+
+.about_container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 40px;
+}
+
+.about {
+    margin: 40px;
+    line-height: 1.8;
+}
+
+/* Contact main style */
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+input {
+    padding: 10px;
+}
+
+input, textarea {
+    border: 1px solid #e91d3c;
+    border-radius: 10px;
+}
+
+input:focus, input:active, textarea:active, textarea:focus {
+    border: 2px solid #e91d3c;
+    outline: none;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e91d3c;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
