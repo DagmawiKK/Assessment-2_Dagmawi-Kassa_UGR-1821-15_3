@@ -58,6 +58,10 @@ a { color:#f3546c; text-decoration:underline;}
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 /* footer style */
 
 .fbg_img {
