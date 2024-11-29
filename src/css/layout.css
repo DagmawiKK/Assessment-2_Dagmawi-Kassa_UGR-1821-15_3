@@ -19,7 +19,6 @@ header {
 .container {
     margin: 10px auto;
     width: 80%;
-    margin: ;
     display: grid;
     grid-template-columns: 1fr 400px;
     gap: 30px;
@@ -71,16 +70,22 @@ ul[class="sb_menu"] li, ul[class="ex_menu"] li, li a[href="#"] {
     margin: 0 auto;
     line-height: 1.5;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 90px;
 }
 
 .imgs {
     display: grid;
-    gap: 30px;
+    width: fit-content;
+    column-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
 
+.imgs a {
+    margin: auto auto;
+}
+
 .imgs a img {
+    min-width: 95px;
     max-width: 100px;
 } 
 
