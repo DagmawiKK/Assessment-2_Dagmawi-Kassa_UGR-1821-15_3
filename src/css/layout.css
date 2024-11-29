@@ -1,7 +1,7 @@
 /* Header layout */
 
 header {
-    background:url(../images/cat.webp) repeat top;
+    background:url("../images/cat.webp") repeat top;
     height:700px;
 }
 .header_resize {
